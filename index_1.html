@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteFi - Your thoughts, remembered forever</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🧠</span>
+                <span class="logo-text">NoteFi</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#" class="nav-cta">💡</a></li>
+                <li><button class="connect-wallet-btn" id="connectWalletBtn">Connect Wallet</button></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Web3-Native Notepad</p>
+                <h1 class="hero-title">
+                    Your thoughts,<br>
+                    remembered <span class="highlight">forever</span>
+                </h1>
+                <p class="hero-description">
+                    NoteFi is a decentralized notepad with AI-powered reminders.<br>
+                    Store your ideas on-chain, set smart alarms, and never forget<br>
+                    what matters.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Download App</button>
+                    <button class="btn-secondary">Learn More</button>
+                </div>
+                <p class="hero-note">
+                    Free tier available • No email required • Your wallet is your identity
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why NoteFi?</h2>
+                <p>A notepad that thinks with you, not about you. Built for Web3, designed for humans.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3>AI Reminders</h3>
+                    <p>Write "Call Dad at 5PM" and AI automatically sets a reminder. No prompts, no fuss.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3>On-Chain Storage</h3>
+                    <p>Your notes live on Xendeum, encrypted and permanent. You own them, not us.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>Offline Reminders</h3>
+                    <p>Set once online, works forever offline. Your phone handles the alarms locally.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>No Tracking</h3>
+                    <p>No ads, no analytics, no email required. Your wallet is your identity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple. Smart. Secure.</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Write Your Thoughts</h3>
+                    <p>Type anything: ideas, reminders, grocery lists. AI scans for time-based content.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>AI Sets Reminders</h3>
+                    <p>If AI detects time ("Meeting at 3PM"), it asks to set a reminder. One click, done.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Never Forget</h3>
+                    <p>Notes stored on-chain, reminders fire locally. Works online and offline.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple Pricing</h2>
+                <p>Start free, upgrade when you need more.</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Free</h3>
+                    <p class="plan-subtitle">Perfect for getting started</p>
+                    <div class="price">$0</div>
+                    <ul class="features-list">
+                        <li>✓ Up to 50 notes</li>
+                        <li>✓ 2 active reminders</li>
+                        <li>✓ Full encryption</li>
+                        <li>✓ On-chain storage</li>
+                    </ul>
+                    <button class="btn-outline">Get Started Free</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Premium</h3>
+                    <p class="plan-subtitle">For power users</p>
+                    <div class="price">$9<span>/month</span></div>
+                    <ul class="features-list">
+                        <li>✓ Unlimited notes & reminders</li>
+                        <li>✓ Voice-to-text input</li>
+                        <li>✓ Audio notes</li>
+                        <li>✓ Custom templates (NFTs)</li>
+                        <li>✓ Auto-reminders (no prompts)</li>
+                    </ul>
+                    <button class="btn-primary">Upgrade to Premium</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What happens if I lose my phone?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your notes are safe on-chain. Just connect your wallet on a new device and everything syncs back. You'll need to reset reminders, but your content is permanent.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How does the AI work?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The AI runs locally on your device, scanning your text for time-based content like "tomorrow at 3PM" or "next Friday". It's simple, private, and doesn't send your data anywhere.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🧠</span>
+                        <span class="logo-text">NoteFi</span>
+                    </div>
+                    <p>Your Web3 notepad with AI reminders. Think it, write it, remember it.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#">Download</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">𝕏</a></li>
+                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 NoteFi. Built with ❤️ for Web3.</p>
+                <div class="footer-tags">
+                    <span>#OnlyPossibleOnXendeum</span>
+                    <span>#Solana</span>
+                    <span>#DePIN</span>
+                    <span>#Web3Tools</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Wallet Connect Modal -->
+    <div id="walletModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Connect Wallet</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p>Choose your preferred wallet to connect to NoteFi</p>
+                <div class="wallet-options">
+                    <div class="wallet-option" data-wallet="metamask">
+                        <img src="assets/metamask-icon.png" alt="MetaMask" class="wallet-icon">
+                        <span>MetaMask</span>
+                    </div>
+                    <div class="wallet-option" data-wallet="trust">
+                        <img src="assets/trust-wallet-icon.png" alt="Trust Wallet" class="wallet-icon">
+                        <span>Trust Wallet</span>
+                    </div>
+                    <div class="wallet-option" data-wallet="coinbase">
+                        <img src="assets/coinbase-wallet-icon.png" alt="Coinbase Wallet" class="wallet-icon">
+                        <span>Coinbase Wallet</span>
+                    </div>
+                    <div class="wallet-option" data-wallet="walletconnect">
+                        <img src="assets/walletconnect-icon.png" alt="WalletConnect" class="wallet-icon">
+                        <span>WalletConnect</span>
+                    </div>
+                    <div class="wallet-option" data-wallet="phantom">
+                        <img src="assets/phantom-icon.png" alt="Phantom" class="wallet-icon">
+                        <span>Phantom</span>
+                    </div>
+                    <div class="wallet-option" data-wallet="solflare">
+                        <img src="assets/solflare-icon.png" alt="Solflare" class="wallet-icon">
+                        <span>Solflare</span>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <p class="wallet-disclaimer">By connecting a wallet, you agree to our Terms of Service and Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
